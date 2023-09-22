@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/stepThreeTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/body_ncomposition"
+            android:textColor="@color/gray"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@+id/stepThreeTextView"
+            app:layout_constraintStart_toStartOf="@+id/stepThreeTextView"
+            app:layout_constraintTop_toBottomOf="@+id/stepThreeTextView" />
+
+        <TextView
+            android:id="@+id/stepTwoTitleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/mental_and_nemotional"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            app:layout_constraintEnd_toEndOf="@+id/stepTwoTextView"
+            app:layout_constraintStart_toEndOf="@+id/stepOneDivider"
+            app:layout_constraintTop_toBottomOf="@+id/stepTwoTextView" />
+
+        <TextView
+            android:id="@+id/stepOneTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/social_nneeds"
+            android:gravity="center"
+            android:textColor="@color/blue_700"
+            app:layout_constraintEnd_toEndOf="@+id/stepOneTextView"
+            app:layout_constraintStart_toStartOf="@+id/stepOneTextView"
+            app:layout_constraintTop_toBottomOf="@+id/stepOneTextView" />
+
+        <TextView
+            android:id="@+id/stepOneTextView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/circle_backgroud_outline"
+            android:backgroundTint="@color/blue_700"
+            android:gravity="center"
+            android:text="@string/_1"
+            android:textColor="@color/blue_700"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/stepOneDivider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/stepTwoTextView"
+            app:layout_constraintStart_toEndOf="@+id/stepOneTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/stepTwoTextView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/circle_background_filled"
+            android:gravity="center"
+            android:text="@string/_2"
+            android:textColor="@color/gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/stepThreeTextView"
+            app:layout_constraintStart_toEndOf="@+id/stepOneTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/stepTwoDivider"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/stepThreeTextView"
+            app:layout_constraintStart_toEndOf="@+id/stepTwoTextView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/stepThreeTextView"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/circle_background_filled"
+            android:gravity="center"
+            android:text="@string/_3"
+            android:textColor="@color/gray"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

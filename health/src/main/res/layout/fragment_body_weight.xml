@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:text="@string/please_select_your_weight_by_scrolling_up_or_down_on_the_scale"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingStart="56dp"
+            android:paddingEnd="0dp"
+            >
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/weightIntegerPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:np_dividerColor="@color/blue_700"
+                app:np_itemSpacing="2dp"
+                app:np_max="120"
+                app:np_min="40"
+                app:np_selectedTextColor="@color/blue_700"
+                app:np_selectedTextSize="56sp"
+                app:np_textColor="@color/gray"
+                app:np_textSize="20sp"
+                app:np_value="50">
+
+            </com.shawnlin.numberpicker.NumberPicker>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/blue_700"
+                app:srcCompat="@drawable/selected_dot"
+                android:contentDescription="@string/dot" />
+
+            <com.shawnlin.numberpicker.NumberPicker
+                android:id="@+id/weightDecimalPart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:np_dividerColor="@color/blue_700"
+                app:np_max="9"
+                app:np_min="0"
+                app:np_selectedTextColor="@color/blue_700"
+                app:np_selectedTextSize="56sp"
+                app:np_textColor="@color/gray"
+                app:np_textSize="20sp"
+                app:np_value="0">
+
+            </com.shawnlin.numberpicker.NumberPicker>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/pounds"
+                android:textColor="@color/blue_700"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</layout>
+

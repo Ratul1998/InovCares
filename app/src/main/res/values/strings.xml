@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">InovCares</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="start_capture">Start Capture</string>
+    <string name="capture">Capture</string>
+    <string name="record">Record</string>
+    <string name="back_button">back_button</string>
+    <string name="toolbar_bg">Toolbar Bg</string>
+    <string name="choose_assessment">Choose Assessment</string>
+    <string name="how_to_record">How to record</string>
+    <string name="please_choose_assessment_type">Please Choose assessment type</string>
+    <string name="add_sign">+</string>
+    <string name="metal_health">metal_health</string>
+    <string name="arms">arms</string>
+    <string name="mental_emotional_and_body_composition">Mental , Emotional and Body Composition</string>
+    <string name="mental_and_emotional">Mental and Emotional</string>
+    <string name="body_composition">Body Composition</string>
+    <string name="social_determinants_of_health_assessment">Social Determinants of Health Assessment</string>
+    <string name="social_needs_screening">Social Needs Screening</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="skip_sdoh_assessment">Skip SDOH Assessment</string>
+    <string name="skip_mental_and_emotional_assessment">Skip Mental and Emotional Assessment</string>
+    <string name="_0">0</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="report">Report</string>
+    <string name="pre_ecclesial_risk_factor">Pre-ecclesial Risk Factor</string>
+    <string name="next">Next</string>
+    <string name="please_answer_the_questions_below_on_a_scale_of_1_to_10_1_is_low_and_10_is_high">Please answer the questions below on a scale of 1 to 10. 1 is low and 10 is high.</string>
+    <string name="charts">Charts</string>
+    <string name="body_fat">Body Fat</string>
+    <string name="body_weight">Body Weight</string>
+    <string name="corrected_bmi">Corrected BMI</string>
+    <string name="please_select_your_weight_by_scrolling_up_or_down_on_the_scale">Please select your weight by scrolling up or down on the scale</string>
+    <string name="dot">dot</string>
+    <string name="pounds">pounds</string>
+    <string name="please_choose_your_activity_level">Please choose your activity level</string>
+</resources>

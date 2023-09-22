@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/task_nav"
+    app:startDestination="@id/socialFragment">
+
+    <fragment
+        android:id="@+id/socialFragment"
+        android:name="com.app.health.fragments.SocialFragment"
+        android:label="SocialFragment" >
+        <action
+            android:id="@+id/action_socialFragment_to_mentalFragment"
+            app:destination="@id/mentalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mentalFragment"
+        android:name="com.app.health.fragments.MentalFragment"
+        android:label="MentalFragment" >
+        <action
+            android:id="@+id/action_mentalFragment_to_bodyCompositionFragment"
+            app:destination="@id/bodyCompositionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bodyCompositionFragment"
+        android:name="com.app.health.fragments.BodyCompositionFragment"
+        android:label="BodyCompositionFragment" />
+</navigation>
